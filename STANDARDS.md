@@ -15,8 +15,9 @@ and modify my personal landing page."_
 
 ## 1. Project Overview
 
-[2–3 sentences describing what this site is, who it is for, and what a
-successful outcome looks like. Draw from Sections 1 and 2 of your PRD.]
+This project is a personal professional landing page for Nicole Kus, a University of Iowa student majoring in Finance, Business Analytics & Information Systems, and Risk Management & Insurance. The site is designed for recruiters and hiring managers evaluating candidates for entry-level financial analyst, data analytics, consulting, and risk management roles.
+
+A successful outcome is a clean, professional landing page that quickly communicates Nicole’s background, skills, and analytics projects, allowing recruiters to easily understand her qualifications and contact her.
 
 ---
 
@@ -35,7 +36,7 @@ These rules apply to every file in this project without exception.
 **Folder structure:**
 
 <pre>
-/your-website-project (Root Folder)  
+/nwkus-landing-page 
 ├── index.html  
 ├── /css  
 │    └── stylesheet.css  
@@ -47,8 +48,6 @@ These rules apply to every file in this project without exception.
 
 **Framework:**
 
-- [Delete one of the following options:]
-- No framework — vanilla CSS only
 - Bootstrap 5.3 loaded via CDN in the `<head>` of `index.html`
 - Tailwind CSS
 
@@ -96,10 +95,9 @@ build and every revision.
 | -------------------- | --------------- | ------------------------------------- |
 | Background           | [e.g., #F8F9FA] | Page background                       |
 | Primary text         | [e.g., #212529] | Body copy, paragraphs                 |
-| Accent               | [e.g., #0D6E6E] | Section headings, links, skill tags   |
+| Accent               | [e.g., #d07195ff] | Section headings, links, skill tags   |
 | Secondary background | [e.g., #E9ECEF] | Section backgrounds, card backgrounds |
 
-**OR:** Navy / teal / white. Clean and modern, not flashy.
 
 **Typography:**
 
@@ -113,7 +111,7 @@ build and every revision.
 
 **Layout:**
 
-- Maximum content width: [e.g., 800px], centered on the page
+- Maximum content width: [e.g., 900px], centered on the page
 - Navigation: [e.g., sticky top bar with anchor links to each section]
 - Section spacing: [e.g., 60px top and bottom padding on each section]
 - Single column on mobile, two-column on desktop for project cards. Generous whitespace.

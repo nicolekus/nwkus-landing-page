@@ -1,81 +1,175 @@
-# Product Requirements Document (PRD) Interview Prompt
+Product Requirement Document
+01 — Problem Statement
 
-## BAIS 3300 · Digital Product Management · Module 8 | Personal Landing Page Project
+Nicole Kus is a student at the University of Iowa majoring in Finance, Business Analytics & Information Systems, and Risk Management & Insurance, graduating in May 2026. She is pursuing entry-level roles such as financial analyst, data/analytics analyst, consulting analyst, and insurance or risk analyst, primarily in the Chicago market.
 
----
+Traditional resumes are limited in space and cannot fully demonstrate technical capabilities, analytical thinking, or project work. The goal of this landing page is to provide recruiters and hiring managers with a centralized place to quickly understand Nicole’s background, see examples of her analytical projects, and evaluate her technical skillset beyond what is possible in a one-page resume.
 
-**Instructions:** Copy everything below the line and paste it into your LLM to start your PRD interview. Before the interview begins, you will be asked to upload your resume and share your LinkedIn URL — have both ready. The AI will read your materials, confirm what it found, and only ask about what is missing or unclear. When the interview is complete, it will generate your PRD in markdown. Save that file as `PRD.md` in your GitHub repo.
+02 — Target Audience
 
-> **Note on STANDARDS.md:** This interview does not cover technical standards, accessibility rules, color palette, typography, or layout. Those belong in your STANDARDS.md file — not your PRD. Once your PRD is complete, use it to fill in Section 1 (Project Overview) and Section 3 (Design Standards) of your STANDARDS.md template.
+The primary audience for the landing page consists of recruiters and hiring managers evaluating candidates for entry-level analyst roles.
 
----
+Key visitors include:
 
-You are a friendly, encouraging product discovery coach helping me — a University of Iowa business analytics student — build a Product Requirement Document (PRD) for my personal professional landing page. This is for BAIS 3300, Digital Product Management.
+Recruiters at financial services companies
 
-**Before the interview begins, ask me for two things:**
+Recruiters at insurance and risk management firms
 
-1. My resume as a PDF upload
-2. My LinkedIn profile URL
+Hiring managers for entry-level analyst roles
 
-Once you have both, read my resume and review my LinkedIn profile carefully. Use them as the foundation for the PRD — do not ask me to retype information that already exists in my materials. Instead, confirm the key details you extracted and ask me to clarify, correct, or expand on anything that is unclear or missing.
+Most visitors will likely be located in or hiring for roles in the Chicago job market, though the page should also support broader opportunities.
 
-**Then conduct a focused interview to gather what the resume and LinkedIn do not provide. Ask one question at a time. If an answer is vague, ask one targeted follow-up before moving on.**
+When visitors arrive at the page, they want to quickly determine:
 
-**Cover these 6 topics in order, using my resume and LinkedIn as source material where possible:**
+What technical and analytical skills Nicole has
 
-1. **Problem Statement** — Confirm my name, major, graduation date, and the roles and industries I am targeting. Ask what problem the landing page solves for me professionally that a resume alone cannot.
+What types of data or analytical projects she has completed
 
-2. **Target Audience** — Ask who will visit my page. Push for specifics beyond "recruiters" — industry, company size, role type, and geography where relevant. Ask what those visitors are looking for when they arrive.
+Whether she is a strong candidate for an entry-level analyst role
 
-3. **Goals & Success Metrics** — Ask what success looks like 30–60 days after launch. Push me to be measurable: number of visits, recruiter messages, applications submitted, etc.
+03 — Goals & Success Metrics
+Goal	How We Measure It
+Recruiters discover and view the landing page	50–100 page visits within the first 60 days
+Visitors review Nicole’s projects	Visitors scroll to or click into the projects section
+The landing page supports job applications	Site link used in at least 10 job applications
+Recruiters reach out for opportunities	5–10 recruiter or hiring manager messages on LinkedIn
+04 — Required Content
+Hero Section
 
-4. **Required Content** — Use my resume and LinkedIn as the source. Confirm what you found, then ask about anything missing or unclear. Cover:
-   - Hero: full name and professional tagline
-   - Bio: academic status, major, graduation date, career interests
-   - Profile photo (confirm I have one; remind me it will be stored locally in the images/ folder)
-   - Skills: confirm the list from my materials, ask if anything should be added, grouped differently, or left off
-   - Projects: identify at least 3 worth featuring; confirm titles, tools used, and outcomes — ask for anything not in my materials
-   - Contact: LinkedIn URL, GitHub URL, and email address
-   - Use "Must" and "Should" labels as we confirm each item
+Must
 
-5. **Scope** — Ask what I am building this week specifically, and what is out of scope for now. Help me draw a clear line between "this iteration" and "future ideas."
+Full name: Nicole Kus
 
-6. **Assumptions & Constraints** — Ask what I already have ready (headshot, GitHub repo created, Replit connected, etc.) and what constraints I am working within (time, tools, skill level, budget).
+Professional tagline:
+Finance, Business Analytics, and Risk Management & Insurance Student | University of Iowa | Aspiring Financial & Data Analyst
 
-**Important instructions:**
+Professional headshot (stored locally in the images/ folder)
 
-- Do NOT ask me to include or link to my resume on the landing page. If I ask about it, explain that resumes go stale quickly and a live URL pointing to an outdated resume does more harm than good. The landing page is a curated professional presence, not a resume mirror.
-- Do NOT ask about the following — these belong in STANDARDS.md, not the PRD:
-  - Technical standards (HTML/CSS rules, frameworks, file structure)
-  - Accessibility requirements
-  - Performance or load time targets
-  - Browser or device compatibility
-  - Color palette, typography, or font choices
-  - Layout preferences or visual style
-  - Tone and writing voice
+Bio Section
 
-**When you have covered all 6 topics:**
+Must
 
-- Summarize what you heard in 3–4 sentences and ask me to confirm or correct anything before you write the PRD.
-- Then generate a complete, well-structured PRD in markdown using my answers and my uploaded materials.
-- Use this section structure:
+University of Iowa student
 
-```
-# Product Requirement Document
-## 01 — Problem Statement
-## 02 — Target Audience
-## 03 — Goals & Success Metrics
-## 04 — Required Content
-## 05 — Scope
-## 06 — Assumptions & Constraints
-```
+Majors: Finance, Business Analytics & Information Systems, Risk Management & Insurance
 
-- Use a table for Goals & Metrics (Goal | How We Measure It).
-- Use a two-column table for Scope (In Scope This Week | Out of Scope).
-- Use "Must" and "Should" labels throughout the Required Content section.
-- Draw content directly from my resume and LinkedIn where possible — use my actual project names, skill names, job titles, and dates, not generic placeholders.
-- End with this note:
+Expected graduation: May 2026
 
-> **Next step:** Save this file as `PRD.md` in your GitHub repo root. Then open your `STANDARDS.md` template and use your PRD to fill in Section 1 (Project Overview) and Section 3 (Design Standards). Both files must be in your repository root before your first coding session.
+Brief description of career interests in financial analysis, data analytics, consulting, and risk management
 
-**Start now. Introduce yourself briefly, then ask me to upload my resume as a PDF and paste my LinkedIn URL before you proceed.**
+Should
+
+Mention study abroad experience at the Lorenzo de’ Medici Institute in Florence, Italy
+
+Highlight interest in combining financial analysis with data-driven decision making
+
+Skills Section
+
+Skills will be grouped to make them easier for recruiters to scan.
+
+Must — Technical Tools
+
+Python
+
+SQL
+
+Excel (Pivot Tables, VLOOKUP, Macros)
+
+Power BI
+
+Microsoft Access
+
+GitHub
+
+Must — Analytics & Finance Skills
+
+Financial Modeling
+
+Valuation
+
+Forecasting
+
+Risk Assessment
+
+Regression Analysis
+
+Predictive Analytics
+
+Data Visualization
+
+Dashboard Development
+
+Database Management
+
+Projects Section
+
+The landing page will highlight three projects demonstrating Nicole’s analytical and technical capabilities.
+
+Must
+
+Chicago Crime Data Analysis
+
+Tools: Excel, Regression Models
+
+Focus: Analyzed crime data to identify patterns and factors influencing crime levels in Chicago.
+
+Sephora Product Ratings Analysis
+
+Tools: Python
+
+Focus: Analyzed customer review data to identify drivers of product ratings and consumer preferences.
+
+Casey’s Pizza Promotion Analysis
+
+Tools: SQL, Power BI
+
+Focus: Analyzed promotion participation and purchasing patterns to evaluate the effectiveness of pizza promotions.
+
+Each project should include:
+
+Project title
+
+Tools used
+
+Brief description of the analysis
+
+Key insight or outcome
+
+Contact Section
+
+Must
+
+LinkedIn profile: linkedin.com/in/nicole-kus
+
+Email address: nicole-kus@uiowa.edu
+
+Should
+
+Simple contact call-to-action encouraging recruiters or hiring managers to connect
+
+05 — Scope
+In Scope This Week	Out of Scope
+Hero section with name, tagline, and headshot	Blog posts
+Short professional bio	Interactive dashboards
+Skills section	Embedded Power BI reports
+Projects section highlighting three analytics projects	Long-form case studies
+Contact section with LinkedIn and email	Resume downloads or hosted resumes
+06 — Assumptions & Constraints
+
+Assumptions
+
+Nicole already has a professional headshot available.
+
+A GitHub repository for the project has been created.
+
+A development environment (such as Replit or similar) is connected and ready.
+
+Project files and materials for the featured projects already exist.
+
+Constraints
+
+The project must be completed within the timeframe of the BAIS 3300 Digital Product Management assignment.
+
+The landing page should remain simple and focused on presenting Nicole’s skills and projects clearly to recruiters.
+
+The page should prioritize clarity and readability for professional audiences reviewing candidates quickly.
